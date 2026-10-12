@@ -8,7 +8,21 @@
 
 Si `py` no funciona, usa `python` en los comandos.
 
-El ZIP original debe encontrarse en `data/raw/archive.zip` (ya viene incluido).
+### Dataset utilizado
+
+Este proyecto utiliza el dataset público **Brazilian E-Commerce Public Dataset by Olist**, disponible en Kaggle:
+
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+Para ejecutar el proyecto:
+
+1. Descargar el dataset desde Kaggle.
+2. Crear la carpeta `data/raw/` en caso de que no exista.
+3. Colocar el archivo descargado en esa carpeta con el nombre `archive.zip`.
+4. Instalar las dependencias mediante `python -m pip install -r requirements.txt`.
+5. Ejecutar `python src/eda_olist.py`.
+
+**Nota:** los datos originales no se incluyen en este repositorio. Se deben descargar desde su fuente oficial.
 
 ## Resultados
 - `resultados/resumen_tablas.csv`: filas, columnas, nulos y duplicados exactos por tabla.
